@@ -1,5 +1,5 @@
 arraySize = 100000;
-repeat = 100000;
+repeat = 1000;
 
 testArray = [i for i in range(arraySize)]
 sum = 0.0
