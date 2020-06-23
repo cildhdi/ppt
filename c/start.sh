@@ -1,6 +1,6 @@
 #!/bin/sh
 
-gcc -o main main.c
+gcc -o main main.c -O3
 startTime=`date +%s%3N`
 echo ---- $PPT_LANG Test start at $startTime
 ./main

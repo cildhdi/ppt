@@ -1,6 +1,6 @@
 #!/bin/sh
 
-g++ -o main main.cpp
+g++ -o main main.cpp -O3
 startTime=`date +%s%3N`
 echo ---- $PPT_LANG Test start at $startTime
 ./main
