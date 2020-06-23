@@ -1,6 +1,6 @@
 #!/bin/sh
 
-for lang in `ls -F | grep "/$"`; do
+for lang in `ls -F | grep "/"`; do
     testLang=${lang%*/}
     tag=ppt_$testLang
     docker build $lang -t $tag
